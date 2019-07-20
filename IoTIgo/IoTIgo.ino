@@ -89,7 +89,7 @@ void handleLight(){
   if (action == "lamponeoff"){
     digitalWrite(D1, LOW);
     message = "Lampu satu sudah dimatikan";
-  }else if(action == "lamponeoff"){
+  }else if(action == "lamponeon"){
     digitalWrite(D1, HIGH);
     message = "Lampu satu sudah dihidupkan";
   }else if(action == "lamptwooff"){
